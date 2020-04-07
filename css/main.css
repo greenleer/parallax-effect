@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  font-size: 16px;
+}
+section {
+  padding: 40px 0;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+.par-img {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.text-box {
+  background-color: #282e34;
+  color: #ddd;
+  opacity: .9;
+  padding: 30px 40px;
+  font-size: 3em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+.text-box.light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color:#666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.section-text {
+  width: 66.66%;
+  margin: 0 auto;
+}
+#par-img1 {
+  background-image: url('../img/forest-small.jpg');
+  height: 100vh;
+}
+#par-img2 {
+  background-image: url('../img/gregory-hayes-small.jpg');
+  height: 75vh;
+}
+#par-img3 {
+  background-image: url('../img/sheldon-thompson-small.jpg');
+  height: 75vh;
+}
