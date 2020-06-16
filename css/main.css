@@ -63,3 +63,29 @@ footer {
   background-image: url('../img/sheldon-thompson-small.jpg');
   height: 75vh;
 }
+
+/*=========== Tablet Styles ==========*/
+@media only screen and (min-width: 740px) {
+  .text-box {
+      background-color: #282e34;
+      color: #ddd;
+      opacity: .9;
+      padding: 30px 40px;
+      font-size: 3em;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+  }
+}
+
+/*========== Desktop Size ==========*/
+@media only screen and (min-width: 1024px) {
+  .text-box {
+      background-color: #282e34;
+      color: #ddd;
+      opacity: .9;
+      padding: 30px 40px;
+      font-size: 4em;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+  }
+}
